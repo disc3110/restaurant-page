@@ -1,3 +1,1 @@
-const hello = 'hello word';
-
-console.log(hello);
+import 'bootstrap/dist/css/bootstrap.min.css';
