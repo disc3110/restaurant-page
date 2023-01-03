@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: aliceblue;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  z-index: 1;
+  background-color: #f6f6f6;
+  border: 1px solis #ddd;
+  color: black;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: .5rem;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
