@@ -23,7 +23,6 @@ nav {
 }
 
 .dropdown-content {
-  display: none;
   position: absolute;
   overflow: auto;
   z-index: 1;
