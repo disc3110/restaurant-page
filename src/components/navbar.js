@@ -3,17 +3,17 @@ const navHTML = `
   <li class="nav-item dropdown">
     <a class="nav-link" id="dropdown-btn" aria-current="page" href="#">Menu</a>
     <div id="myDropdown" class="dropdown-content d-none">
-      <a href="#">Breakfast</a>
-      <a href="#">Saucers</a>
-      <a href="#">Desserts</a>
-      <a href="#">Beverages</a>
+      <a href="#" class="menu-btn">Breakfast</a>
+      <a href="#" class="menu-btn">Saucers</a>
+      <a href="#" class="menu-btn">Desserts</a>
+      <a href="#" class="menu-btn">Beverages</a>
     </div>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Locations</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Reservations</a>
+    <a class="nav-link" id="reservations-btn" href="#">Reservations</a>
   </li>
 </ul>
 <p class="pt-3 pe-4">The Mexican</p>
